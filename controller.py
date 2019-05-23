@@ -10,7 +10,7 @@ duty = {"1":"F015","2":"F040", "3":"F050", "4":"F060","5":"F070", "6":"F080","7"
 
 #Arduinoのデバイス名を指定
 #ser = serial.Serial('/dev/arduino_uno', 9600)
-ser = serial.Serial('/dev/ttyACM0', 9600)
+ser = serial.Serial('/dev/ttyACM1', 9600)
 
 class Application(tk.Frame):
 
